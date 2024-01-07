@@ -16,12 +16,12 @@ To get started with the project, you need to set up your environment and install
 
 ## Clone the repository:
 
-'''
+```
 git clone https://github.com/ganeshmore99/End-to-end-Boston-House-Pricing-Prediction.git
-'''
-'''
+```
+```
 cd End-to-end-Boston-House-Pricing-Prediction
-'''
+```
 
 ## Create and activate a virtual environment:
 
@@ -30,17 +30,17 @@ conda create -p venv python==3.8 -y
 ```
 ## Install the required packages:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 
 ## User Application
 A user-friendly web application is created to allow users to input data and get house price predictions. The app is built using Flask and can be run locally with the following command:
 
-'''
+```
 python app.py
-'''
+```
 
 ## Docker
 Docker is used to containerize the application for consistent and reproducible deployments. To build and run the Docker container.
@@ -53,25 +53,25 @@ The final step is to deploy the application to Heroku. Ensure you have the Herok
 
 Log in to Heroku:
 
-'''
+```
 heroku login
-'''
+```
 
 ## Create a new Heroku app:
 
 heroku create boston-house-pricing-app
 Deploy the Docker container to Heroku:
 
-'''
+```
 heroku container:push web -a boston-house-pricing-app
 heroku container:release web -a boston-house-pricing-app
-'''
+```
 
 ## Open the deployed app in your browser:
 
-'''
+```
 heroku open -a boston-house-pricing-app
-'''
+```
 
 ## Conclusion
 This project demonstrates a comprehensive workflow for developing and deploying a machine learning model. By following these steps, you can replicate the process and apply it to similar projects. Feel free to contribute to the project by opening issues or submitting pull requests.
