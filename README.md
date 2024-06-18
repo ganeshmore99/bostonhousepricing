@@ -1,5 +1,8 @@
 # End-to-End Boston House Pricing Prediction Machine Learning Project
 
+![house](https://github.com/ganeshmore99/bostonhousepricing/assets/85934803/a372527c-b176-439e-911b-18078f90ef37)
+
+
 ## Introduction
 This project is an end-to-end machine learning implementation for predicting Boston house prices. The project covers the entire machine learning pipeline, from data preprocessing and training to deployment of the model. The final application is deployed using Docker and CI/CD pipelines with GitHub Actions, and the deployment is hosted on Heroku.
 
